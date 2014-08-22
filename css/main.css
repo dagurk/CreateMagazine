@@ -109,7 +109,7 @@ textarea {
 body, html {
 	height: 100%;
 	min-height: 100%;
-	background-color: #969696;
+	background-color: #fff;
 }
 body {
 	color: #fff;
@@ -188,7 +188,7 @@ main {
 	z-index: 100;
 	padding-top: 500px;
 }
-	#imgPanel .ar img { float: right; }
+	#imgPanel .ar  { text-align: right; }
 
 	.imgContainer {
 		position: relative;
@@ -203,6 +203,21 @@ main {
 			display: inline-block;
 			max-width: 300px;
 		}
+		.imgInfo  {
+			padding-top: 4px;
+			
+		}
+			.imgInfo  p {
+				margin: 0;
+				color: #000;
+				line-height: 100%;
+				text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+			}
+			.imgInfo a  {
+				color: #a91e23;
+				
+			}
+		
 
 .bgPanel {
 	position: relative;
@@ -210,21 +225,20 @@ main {
 		
 .bgImgInfo {
 	position: absolute;
-	right: -170px;
-	bottom: -14px;
-	width: 170px;
-	background: url('../img/shadow.png') no-repeat bottom left;
+	right: -162px;
+	bottom: -10px;
+	width: 162px;
+	background: url('../img/shadow_white.png') no-repeat bottom left;
 	text-align: left;
 }
 	.bgImgInfo p {
-		padding-bottom: 20px;
+		padding-bottom: 19px;
 		padding-left: 7px; 
 		margin: 0;
-
+		color: #000;
 	}
 	.bgImgInfo a {
 		color: #a91e23;
-		font-weight: bold;
 	}	
 		
 .logo {
