@@ -154,6 +154,7 @@ main {
 .bcg {
 }
 
+
 .hsContainer {
 	width: 1024px;
 	top: 0;
@@ -178,7 +179,7 @@ main {
 		margin-bottom: 0px;
 		letter-spacing: 3px;
 	}
-
+	
 #imgPanel {
 	position: absolute;
 	top: 0;
@@ -192,7 +193,7 @@ main {
 
 	.imgContainer {
 		position: relative;
-		padding-top: 150px;
+		padding-top: 310px;
 		padding-left: 5%;
 		padding-right: 5%;
 		width: 90%;
@@ -201,7 +202,7 @@ main {
 		.imgContainer img {
 			position: relative;
 			display: inline-block;
-			max-width: 300px;
+			max-width: 370px;
 		}
 		.imgInfo  {
 			padding-top: 4px;
@@ -225,9 +226,10 @@ main {
 		
 .bgImgInfo {
 	position: absolute;
-	right: -162px;
+	right: -180px;
 	bottom: -10px;
-	width: 162px;
+	width: 180px;
+	min-height: 20px;
 	background: url('../img/shadow_white.png') no-repeat bottom left;
 	text-align: left;
 }
@@ -299,15 +301,6 @@ main {
 		position: absolute;
 	}
 	
-	#slide-1 .bcg {background: none;}
-	#slide-1 .hsContent { top: 20%; }
-
-	#slide-2 .bcg {background: none;}
-	#slide-2 .hsContent { top: 0%; }
-
-	#slide-3 .bcg {background: none;}
-	#slide-3 .hsContent { top: 30%; }
-
 
 }
 

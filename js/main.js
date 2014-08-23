@@ -59,6 +59,7 @@
 			});
 	 
 			// Resize our slides
+			$slide.height($body.height());
 	 
 			s.refresh($('.homeSlide'));
 	 
@@ -76,8 +77,10 @@
 			var s = skrollr.init();
 			s.destroy();
 		}
+		 $("#skrollr-body").css("height", "100%");
 	    
 	}
+	
 	
 	function initAdjustWindow() {
 		return {
@@ -126,3 +129,7 @@
 	*/
 		
 } )( jQuery );
+
+$(document).ready(function(){
+ $("#skrollr-body").css("height", "100%");
+});
